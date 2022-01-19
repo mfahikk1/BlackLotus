@@ -1,0 +1,256 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">        
+        <title>Index Page</title>
+        <style type="text/css">
+           .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+                    }
+                    .footer-social-icons{
+                width: 100%;
+                height: auto;
+                margin:auto;
+                margin-bottom: 10px;
+              }
+              .footer-social-icons ul{
+                margin:0px;
+                padding: 0px;
+                text-align: center;
+              }
+              .footer-social-icons ul li{
+                display: inline-block;
+                margin-right: 2px;
+                width: 36px;
+                height: 36px;
+                text-align: center;
+              }
+              .footer-social-icons ul li a{
+                color: #fff;
+                display: block;
+                font-size: 22px;
+                text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+              }
+              .footer-social-icons ul li a i{
+                line-height: 36px;
+              }
+              .footer-social-icons ul li:nth-child(1){
+                  background: #3b5998;
+              }
+              .footer-social-icons ul li:nth-child(2){
+                  background: #1da1f2;
+              }
+              .footer-social-icons ul li:nth-child(3){
+                  background: #25d366;
+              }
+              .footer-social-icons ul li:nth-child(4){
+                  background: #c32aa3;
+              }
+              .footer-social-icons ul li:nth-child(5){
+                  background: #007bb5;
+              }
+              .footer-social-icons ul li:nth-child(6){
+                  background: #ff0000;
+              }
+              .footer-social-icons ul li:nth-child(7){
+                  background: #db4437;
+              }
+              .footer-social-icons ul li:nth-child(8){
+                  background: #00aff0;
+              }
+              .footer-social-icons ul li:nth-child(9){
+                  background: #09b83e;
+              }
+              .footer-social-icons ul li:nth-child(10){
+                  background: #bd081c;
+              }
+                    
+           .header {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+                    }
+                    .font-size{
+                    font-size:30px; 
+                    }
+                    
+                    /* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+                
+				
+				/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+#myDiv {
+  display: none;
+  text-align: center;
+}
+                    
+        </style>
+    </head>
+    <body onload="myFunction()" style="margin:0;">
+        <div id="loader" class='box'>
+            <div class='b b1'></div>
+            <div class='b b2'></div>
+            <div class='b b3'></div>
+            <div class='b b4'></div>
+        </div>
+        
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+
+        <h3 class='font-size' align="center">Welcome to</h3>
+        <header>
+            <center><img src="Black-Lotus-Logo.png" width='500' height="150"></center>
+      
+                <table width='100%' align='center'>                
+                
+                    <tr class='font-size'>
+                        <td align='center' bgcolor='Black'><a href='index.html'>Home</a></td>
+                        <td align='center' bgcolor='Black'><a href='AboutUs.jsp'>About Us</a></td>
+                        <td align='center' bgcolor='Black'><a href='Login.jsp'>Login</a></td>
+                    </tr>
+                </table>
+        </header><br><br>
+        <table border="0" width="100%" cellpadding="10px;" align='center'>
+            <br><br>
+            <tbody>
+                <tr>
+                    <td align='center'><img src="Angel_Food_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                    <td align='center'><img src="Baked_Flourless_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                    <td align='center'><img src="Biscuit_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                    <td align='center'><img src="Butter_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                    <td align='center'><img src="Carrot_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                </tr>
+                <tr>
+                    <td align='center'>Angel Food Cake</td>
+                    <td align='center'>Baked Flourless Cake</td>
+                    <td align='center'>Biscuit Cake</td>
+                    <td align='center'>Butter Cake</td>
+                    <td align='center'>Carrot Cake</td>
+                </tr>
+                <tr>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <table border="0" width="100%" cellpadding="10px;" align='center'>
+            
+            <tbody>
+                <tr>
+                    <td align='center'><img src="Chiffon_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                    <td align='center'><img src="Chocolate_Gazzed_Hazelnut_Mousse_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                    <td align='center'><img src="Devil's_Food_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                    <td align='center'><img src="Flourless_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                    <td align='center'><img src="Fruit_Cake.jpg" alt="Trulli" width="250" height="250"></td>
+                </tr>
+                <tr>
+                    <td align='center'>Chiffon Cake</td>
+                    <td align='center'>Chocolate Gazzed Hazelnut Mousse Cake</td>
+                    <td align='center'>Devil's Food Cake</td>
+                    <td align='center'>Flourless Cake</td>
+                    <td align='center'>Fruit Cake</td>
+                </tr>
+                <tr>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                    <td align='center'><input type="submit" value="Order Now" name="btnorderAdd" /></td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+<br><br>
+        <div class="footer">
+            <div class="row"> 
+                
+                <div class="footer-social-icons">
+            <ul>
+                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-skype"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-wechat"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+        </div>
+                <p>Address: No: 68, Wilmot Street,<br> Hambantota <br>Tel: 077-7926989<br>Email Address: mfahikk1@gmail.com  </p>
+                <p>Copyright &copy; 2017 All Rights Reserved by <a href="index.html">Black Lotus</a>.</p>
+                </div>    
+        </div>
+</div>
+		
+		<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+       
+    </body>
+</html>

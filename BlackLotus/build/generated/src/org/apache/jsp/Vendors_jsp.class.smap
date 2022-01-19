@@ -1,0 +1,20 @@
+SMAP
+Vendors_jsp.java
+JSP
+*S JSP
+*F
++ 0 Vendors.jsp
+Vendors.jsp
++ 1 VendorHeader.jsp
+VendorHeader.jsp
++ 2 Footer.jsp
+Footer.jsp
+*L
+5,9:50
+5#1,43:59
+13#0,6:101
+19,13:108
+31,91:121
+5#2,139:212
+121#0,3:350
+*E

@@ -1,0 +1,20 @@
+SMAP
+Admin_jsp.java
+JSP
+*S JSP
+*F
++ 0 Admin.jsp
+Admin.jsp
++ 1 AdminHeader.jsp
+AdminHeader.jsp
++ 2 Footer.jsp
+Footer.jsp
+*L
+5,13:54
+5#1,42:67
+17#0,5:108
+22,14:114
+35,54:128
+5#2,139:182
+88#0,5:320
+*E

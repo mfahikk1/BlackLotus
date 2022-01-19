@@ -1,0 +1,28 @@
+SMAP
+OrderManagement_jsp.java
+JSP
+*S JSP
+*F
++ 0 OrderManagement.jsp
+OrderManagement.jsp
++ 1 AdminHeader.jsp
+AdminHeader.jsp
++ 2 Footer.jsp
+Footer.jsp
+*L
+5,13:54
+5#1,42:67
+17#0,5:108
+22,26:114
+47,39:140
+86,4:180
+89,4:184
+93,5:188,3
+98,3:203
+101,2:207
+102,5:209
+107,8:215
+114,12:223
+5#2,139:235
+125#0,3:373
+*E

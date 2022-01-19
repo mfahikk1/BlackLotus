@@ -1,0 +1,20 @@
+SMAP
+Outlet_jsp.java
+JSP
+*S JSP
+*F
++ 0 Outlet.jsp
+Outlet.jsp
++ 1 AdminHeader.jsp
+AdminHeader.jsp
++ 2 Footer.jsp
+Footer.jsp
+*L
+5,9:50
+5#1,42:59
+13#0,6:100
+19,14:107
+32,43:121
+5#2,139:164
+74#0,4:302
+*E
